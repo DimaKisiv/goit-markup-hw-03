@@ -283,7 +283,7 @@ img {
 
 .footer-logo {
   margin-bottom: 16px;
-  display: block;
+  display: inline-block;
 }
 
 .footer-description {
