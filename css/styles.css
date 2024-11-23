@@ -1,0 +1,150 @@
+:root {
+  --color-text: #434455;
+  --color-primary: #2e2f42;
+  --color-secondary: #404bbf;
+  --color-accent: #4d5ae5;
+  --color-light: #f4f4fd;
+  --color-white: #ffffff;
+}
+
+/*#region Normalization */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+/*#endregion*/
+
+.text {
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Titles h1, h2, h3 */
+.top-banner-title {
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.section-title {
+  color: var(--color-primary);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.list-title {
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Head */
+.navigation-item {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.navigation-item:hover,
+.navigation-item:focus,
+.navigation-item:active {
+  color: var(--color-secondary);
+}
+
+.navigation-item:active {
+  text-decoration: underline;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-item {
+  color: currentColor;
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: var(--color-secondary);
+}
+
+/* Top Banner */
+.top-banner {
+  background-color: var(--color-primary);
+}
+
+.top-banner-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--color-accent);
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.top-banner-button:hover,
+.top-banner-button:active,
+.top-banner-button:focus {
+  background-color: var(--color-secondary);
+}
+
+/* Logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.logo .logo-right-top {
+  color: var(--color-primary);
+}
+
+.logo .logo-right-footer {
+  color: var(--color-light);
+}
+
+/* Team */
+.section-team {
+  background-color: var(--color-light);
+}
+
+.team-item {
+  background-color: var(--color-white);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-primary);
+}
+
+.footer-description {
+  color: var(--color-light);
+}
