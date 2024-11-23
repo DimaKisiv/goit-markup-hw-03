@@ -281,20 +281,15 @@ img {
   padding: 100px 0;
 }
 
-.footer .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer-logo {
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-description {
   color: var(--color-light);
   width: 264px;
-  display: inline-block;
+  display: block;
 }
 
 .visually-hidden {
